@@ -402,8 +402,7 @@ public class DataPusher extends NonBlockingJSONPusher {
 
     @Override
     public String initIntegreenTypology() {
-        ResourceBundle bundle = ResourceBundle.getBundle("config");
-        return bundle.getString("odh.station.type");
+        return stationtype;
     }
 
     @Override
