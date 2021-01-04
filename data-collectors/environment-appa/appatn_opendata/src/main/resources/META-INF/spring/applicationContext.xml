@@ -13,7 +13,7 @@
 	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.2.xsd " profile="execute">
 	<context:spring-configured/>
 
-	<context:component-scan base-package="info.datatellers.appatn.opendata"/>
+	<context:component-scan base-package="it.bz.idm.bdp,info.datatellers.appatn.opendata"/>
 
 	<bean class="info.datatellers.appatn.opendata.JobScheduler" id="jobScheduler"/>
 
